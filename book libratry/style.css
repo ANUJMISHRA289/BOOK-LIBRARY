@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: olive;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  input, select, button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .book-item, .history-item {
+    background: white;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  button.borrow-btn {
+    margin-top: 10px;
+    background: #28a745;
+  }
+  

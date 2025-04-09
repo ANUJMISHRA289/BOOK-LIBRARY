@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Book Library</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📚 My Book Library</h1>
+  </header>
+
+  <main>
+    <!-- Add Book Form -->
+    <section>
+      <h2>Add a Book</h2>
+      <input id="title" type="text" placeholder="Book Title" />
+      <input id="author" type="text" placeholder="Author" />
+      <select id="category">
+        <option value="Fiction">Fiction</option>
+        <option value="Non-fiction">Non-fiction</option>
+        <option value="Biography">Biography</option>
+        <option value="Science">Science</option>
+      </select>
+      <button onclick="addBook()">Add Book</button>
+    </section>
+
+    <!-- Search Bar -->
+    <section>
+      <h2>Search Books</h2>
+      <input id="search" type="text" placeholder="Search by title or author" oninput="searchBooks()" />
+    </section>
+
+    <!-- Book List -->
+    <section>
+      <h2>Book List</h2>
+      <div id="bookList"></div>
+    </section>
+
+    <!-- Borrow History -->
+    <section>
+      <h2>Borrowing History</h2>
+      <div id="historyList"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
